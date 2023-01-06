@@ -1003,11 +1003,9 @@ module.exports = function toReadable (number) {
     ];
     let result;
     for(let i = 0; i < sum.length;i++) {
-        for(let k = 1; k < sum[i].length;k++){
             if(number ==sum[i][0]){
                 result = sum[i][1];
             }
         }
-    }
      return result;
 }
